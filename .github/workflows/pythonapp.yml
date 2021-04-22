@@ -1,11 +1,11 @@
-name: Python application
+name: f;ight booking application
 
 on: [push]
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows
 
     steps:
     - uses: actions/checkout@v1
